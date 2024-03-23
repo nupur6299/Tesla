@@ -543,12 +543,37 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.h-screen{
-  height:100vh;
+
+.h-screen {
+  height: 100vh;
 }
-.bg-center{
-  background-position: center;
+
+.w-screen {
+  width: 100vw;
 }
-.bg-cover{
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
+.bg-red-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'https\:\/\/digitalassets\.tesla\.com\/tesla-contents\/image\/upload\/f_auto\2c q_auto\/Homepage-Model-S-Desktop-LHD-6\.22\.jpghttps\:\/\/digitalassets\.tesla\.com\/tesla-contents\/image\/upload\/f_auto\2c q_auto\/Homepage-Model-S-Desktop-LHD-6\.22\.jpg\'\)\] {
+  background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-LHD-6.22.jpghttps://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-LHD-6.22.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/digitalassets\.tesla\.com\/tesla-contents\/image\/upload\/h_2400\2c w_2880\2c c_fit\2c f_auto\2c q_auto\:best\/Homepage-Model-Y-Global-Desktop\'\)\] {
+  background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/h_2400,w_2880,c_fit,f_auto,q_auto:best/Homepage-Model-Y-Global-Desktop');
+}
+
+.bg-cover {
   background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
 }
