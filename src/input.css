@@ -8,3 +8,8 @@
 *{
     font-family: "Gotham Book ",sans-serif;
 }
+@layer components{
+    .Link{
+        @apply cursor-pointer font-semibold
+    }
+}
